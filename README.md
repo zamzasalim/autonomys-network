@@ -9,10 +9,20 @@
 
 # Autonomys Network Node & Farmer
 
+## Siapkan Wallet Subwallet & Get Address
+- Download Extensi [Subwallet](https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn)
+- Create wallet & backup
+- Open web : [Autonomys](https://astral.autonomys.xyz/gemini-3h/consensus?walletSidekick=open)
+- Konek Subwallet
+- Copy Address & Paste address waktu penginstalan node
 ## Auto Install
 ```
 wget https://raw.githubusercontent.com/zamzasalim/autonomys-network/main/autonomys.sh && chmod +x autonomys.sh && ./autonomys.sh
 ```
+- Paste Address Autonomys
+- Set port (kalo gk mau langsung enter aja)
+- Set SSD (isi 500G)
+- Lalu enter enter sampe selesai install
 ## Start Node
 ```
 sudo systemctl start subspace-node && sudo systemctl start subspace-farmer
