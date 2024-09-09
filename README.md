@@ -11,7 +11,7 @@
 
 ## Auto Install
 ```
-bash <(curl -s https://github.com/zamzasalim/autonomys-network/autonomys.sh)
+wget https://raw.githubusercontent.com/zamzasalim/autonomys-network/main/autonomys.sh && chmod +x autonomys.sh && ./autonomys.sh
 ```
 ## Start Node
 ```
