@@ -48,6 +48,10 @@ sudo journalctl -f -o cat -u subspace-node
 ```
 sudo journalctl -f -o cat -u subspace-farmer
 ```
+## Check Reward
+```
+sudo journalctl -o cat -u subspace-farmer --since="1 hour ago" | grep -i "Successfully signed reward hash" | wc -l
+```
 ## Stop Node
 ```
 sudo systemctl stop subspace-node && sudo systemctl stop subspace-farmer
