@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/zamzasalim/autonomys-network/main/autonom
 ```
 - Paste Address Autonomys
 - Set port (kalo gk mau langsung enter aja)
-- Set SSD (isi 500G)
+- Set SSD (isi 200G)
 - Lalu enter enter sampe selesai install
 ## Start Node
 ```
